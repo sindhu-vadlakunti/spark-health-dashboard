@@ -5,7 +5,7 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 
 # --- Load Data ---
-data_path = "/home/sindhu/bigdata/spark/output/health.csv/*.csv"
+data_path = "/home/sindhu/bigdata/spark/output/health.csv/data.csv"
 all_files = glob.glob(data_path)
 
 if not all_files:
